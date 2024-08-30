@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        
+        <img src="restaurent.png" height="100px" width="100px">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotel.html">Events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#bhuvan">VEG</a></li>
+                            <li><a class="dropdown-item" href="#">Meals</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="event.html">Our Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <marquee behavior="slide" direction="right"><h3>Velvet Orchid</h3></marquee>
+    <div class=" p-3  ms-2 margin-right: 1rem">
+        <img src="hotel img.png " alt="hotel" height="500px" width="98%"
+            style="margin-top: 50px; border-radius: 30px;">
+        <h5 id="bhuvan" style="margin-top: 20px;">Nestled in the heart of the city, The Regal Crest is a sanctuary of elegance and sophistication. Our hotel
+            redefines luxury, offering an unparalleled experience that seamlessly blends timeless charm with modern
+            comfort. Whether you’re here for business, leisure, or a special occasion, The Regal Crest provides an
+            exquisite setting where every detail is meticulously crafted to ensure an unforgettable stay</h2>
+
+    </div>
+    <h1>Veg;</h1>
+    <summary>
+        <details class="m-4">
+            Idly <br>
+            Dosa<br>
+            Pongal<br>
+            Poori<br>
+
+        </details>
+    </summary>
+    <div class="d-flex m-5 p-3">
+        <div class="card" style="width: 18rem;">
+            <img src="idly.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Idli or idly plural idlis is a type of savoury rice cake, originating from South
+                    India, popular as a breakfast food in Southern India and in Sri Lanka..</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="Dosa.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">A dosa is a thin, savoury crepe in South Indian cuisine made from a fermented
+                    batter of ground black gram and rice. Dosas are served hot, often with chutney and sambar (a
+                    lentil-based vegetable stew)</p>
+                <a href="#" class="btn btn-primary">Buy Now </a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="pongal.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Pongal is a South Indian and Sri Lankan dish rice cooked in boiling milk. Its
+                    preparation is the main custom associated with the Pongal festival. It is also eaten as a breakfast
+                    food.A part of Tamil cuisine,</p>
+                <a href="#" class="btn btn-primary">Buy Now </a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="poori.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Puri, also poori, is a type of deep-fried bread, made from unleavened whole-wheat
+                    flour, originated from the Indian subcontinent. Puris are most commonly served as breakfast or
+                    snacks It is also served at special
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now </a>
+            </div>
+        </div>
+    </div>
+    <h1>Meals;</h1>
+    <summary>
+        <details class="m-4">
+            Meals <br>
+            VEG Biriyani<br>
+            Mushroom Biriyani<br>
+            Tomato Rice<br>
+
+        </details>
+    </summary>
+    <div class="d-flex  m-5 p-3 ">
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="meals.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Tamil cuisine is a culinary style of Tamil people originating in the southern
+                    Indian state of Tamil Nadu and neighboring Sri Lanka.[1] Meats, along with rice, legumes, and
+                    lentils, are popular. Dairy products and tamarind are used to provide sour flavors.l</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="./veg biriyani.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Veg Biryani is a flavourful rice dish made with basmati rice, mixed vegetables,
+                    whole spices, freshly ginger, garlic, coriander and mint leaves. In this blog post I have shared
+                    vegetable biryani made 4 different ways using pressure cooker.</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="Mushroom.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">This Chinese-inspired mushroom fried rice is an easy, delicious dish with umami
+                    flavors made with rice, mushrooms, soy sauce, onions and black pepper. It’s a vegan recipe that’s
+                    quick to stir-fry and is ready to enjoy.</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="tomato rice.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">This easy, quick and delicious Tomato Rice recipe is a favorite staple dish from
+                    the Tamil Nadu state of South India. Also known as Thakkali Sadam in Tamil language, this one pot
+                    wonder is tasty, healthy and perfect to pack in a tiffin for lunch</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <H1>Non-Veg;</H1>
+    <summary>
+        <details class="m-4">
+            Chicken Biriyani<br>
+            Mutton Biriyani<br>
+            Hyderabadi Biriyani<br>
+            Thalapakatti Biriyani<br>
+
+        </details>
+    </summary>
+    <img src="non veg.png" alt="Non-Veg" height="50px " width="50px ">
+    <div class="d-flex m-5 p-3">
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="./chick.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Biryani is a mixed rice dish, mainly popular in South Asia. It is made with rice,
+                    some type of meat and spices. To cater to vegetarians, in some cases, it is prepared by substituting
+                    vegetables or paneer for the meat</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="mutton.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Mutton biryani is a classic and flavorful South Asian dish, especially popular in
+                    India, Pakistan, and Bangladesh. It's a rice-based dish that combines tender, marinated pieces of
+                    mutton</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="hyderbad.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Hyderabadi Biryani is one of the most famous and beloved dishes in Indian cuisine,
+                    originating from the city of Hyderabad in southern India. This aromatic and richly flavored biryani
+                    is known for it </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+            <img src="dinduka;.jpg" height="200px" width="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Thalappakatti Biryani, also known as Dindigul Biryani, is a famous South Indian
+                    dish that originates from the Dindigul region in Tamil Nadu. This biryani is known for its unique
+                    flavor profile, use of local ingredients, and the rich history that accompanies its preparation.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+    <h1>Pizzas;</h1>
+    <summary>
+        <details class="m-4">
+            Oven Story Pizza<br>
+            Chicken Supreme Pizza<br>
+            Peri Peri Chicken Pizza<br>
+            American Corn Pizza<br>
+
+            <div class="d-flex  m-5 p-3">
+                <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+                    <img src="oven.jpg" height="200px" width="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Oven Story Pizza is a popular pizza delivery chain in India, known for its
+                            unique approach to pizzas and a wide variety of innovative and flavorful toppings. </p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+                    <img src="supreme.jpg" height="200px" width="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Chicken Supreme Pizza is a delicious and popular variety of pizza that
+                            typically includes a combination of chicken and various vegetables. </p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+                    <img src="peri.jpg" height="200px" width="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Peri Peri Chicken Pizza is a flavorful and spicy pizza variety that
+                            features the distinctive taste of Peri Peri sauce, which is made from African bird's eye
+                            chili peppers. </p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card m-2 mr-4 rounded" style="width: 18rem;">
+                    <img src="corn.jpg" height="200px" width="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">An American Corn Pizza is a unique and slightly sweet pizza option that
+                            features sweet corn as one of its primary toppings. It's often a favorite for those who
+                            enjoy a milder, yet flavorful, </p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+            </div> 
+            <div class="d-flex">
+            <div class="row">
+                <h2>About;</h2>
+                <div class="col">
+                    <p>WE Provide Low cost. High quality.</h3>
+
+
+                </div>
+            
+
+            </div>
+            <div class="row">
+                <h2>Contact;</h2>
+                <div class="col">
+                    <img src="gmail.png" alt="icon" height="50px" width="50px"> Velvet387@gmail.com<br>
+                <img src="whats.png" alt="icon" height="50px" width="50px">8680023800
+
+                
+                </div>
+               
+                   
+
+            </div>
+
+            <div class="row">
+                <h2>Location;</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31103.086459220216!2d80.19917226968938!3d12.979154909117074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9ff2065a3b%3A0x66435015604038cc!2sVelachery%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1723646978664!5m2!1sen!2sin" width="100px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>
